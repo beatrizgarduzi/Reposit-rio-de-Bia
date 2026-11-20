@@ -39,8 +39,6 @@ O objetivo deste arquivo é ser o *cartão de visitas* do repositório: quem che
 | 11 | Etapa 10 | `.gitignore` | Controlar o que entra (e o que não entra) no repositório. |
 | 12 | Etapa 11 | GitHub na prática | Criar o repo na web, clonar, alterar, `commit`, `push` e abrir Pull Request. |
 | 13 | Etapa 12 | Trabalho em equipe | Colaboradores, code review, aprovação e merge do PR. |
-| 14 | Extra | Corrigir o último commit | `git commit --amend` e `git push --force-with-lease`. |
-| 15 | Extra | Fork | Copiar o repositório de outra pessoa e contribuir sem afetar o original. |
 
 ---
 
