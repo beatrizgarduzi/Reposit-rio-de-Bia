@@ -22,7 +22,7 @@ O objetivo deste arquivo é ser o *cartão de visitas* do repositório: quem che
 
 ---
 
-## O que aprendi nas aulas
+## O conteúdo
 
 | # | Etapa | Tema | Resumo |
 |:---:|:---:|---|---|
