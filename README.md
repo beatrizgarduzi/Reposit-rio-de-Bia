@@ -24,17 +24,23 @@ O objetivo deste arquivo é ser o *cartão de visitas* do repositório: quem che
 
 ## O que aprendi nas aulas
 
-| Aula | Tema | Resumo |
-|:----:|---|---|
-| 1 | O que é Git e GitHub | Controle de versão, repositório local × remoto, `commit`, `branch`, `merge`, `push` e `pull`. |
-| 2 | Instalação e configuração | Instalar o Git, conferir a versão e configurar `user.name` e `user.email`. |
-| 3 | Primeiro repositório | `git init`, `git status`, criar o `README.md`, `git add`, primeiro `commit` e `git log`. |
-| 4 | README.md | Estrutura de um bom README e as principais sintaxes de Markdown. |
-| 5–10 | Branches e colaboração | Criar branches, fazer merge, resolver conflitos e abrir Pull Requests. |
-| 11 | GitHub na prática | Criar repositório no GitHub, clonar, alterar, `commit`, `push` e revisar. |
-| 12 | Trabalho em equipe | Colaboradores, code review, aprovação e merge de um PR. |
-| 13–14 | Boas práticas | Corrigir o último commit com `--amend` e enviar com `--force-with-lease`. |
-| 15 | Fork | Copiar um repositório de outra pessoa e contribuir sem afetar o original. |
+| # | Etapa | Tema | Resumo |
+|:---:|:---:|---|---|
+| 1 | Aula 1 | O que é Git e GitHub | Controle de versão, diferença entre Git e GitHub, repositório local × remoto. |
+| 2 | Etapa 2 | Instalação e configuração | Instalar o Git, conferir com `git --version` e configurar `user.name` e `user.email`. |
+| 3 | Etapa 3 | Primeiro repositório | `git init`, `git status`, criar o `README.md`, `git add`, primeiro `commit` e `git log`. |
+| 4 | — | README.md e Markdown | Estrutura de um bom README e a sintaxe básica de Markdown. |
+| 5 | Etapa 4 | Trabalhando com alterações | Ver o que mudou, comparar diferenças e colocar arquivos no staging com `git add`. |
+| 6 | Etapa 5 | Repositório remoto | Criar o repositório no GitHub e publicar o projeto que estava só na máquina. |
+| 7 | Etapa 6 | Clone, pull e push | Baixar o projeto do GitHub e sincronizar as alterações nos dois sentidos. |
+| 8 | Etapa 7 | Branches | Criar, listar e trocar de branch para evoluir sem quebrar a `main`. |
+| 9 | Etapa 8 | Merge | Juntar as branches e integrar as alterações com segurança. |
+| 10 | Etapa 9 | Conflitos | Identificar, resolver e concluir um merge que deu conflito. |
+| 11 | Etapa 10 | `.gitignore` | Controlar o que entra (e o que não entra) no repositório. |
+| 12 | Etapa 11 | GitHub na prática | Criar o repo na web, clonar, alterar, `commit`, `push` e abrir Pull Request. |
+| 13 | Etapa 12 | Trabalho em equipe | Colaboradores, code review, aprovação e merge do PR. |
+| 14 | Extra | Corrigir o último commit | `git commit --amend` e `git push --force-with-lease`. |
+| 15 | Extra | Fork | Copiar o repositório de outra pessoa e contribuir sem afetar o original. |
 
 ---
 
@@ -114,6 +120,7 @@ git push origin main                   # envia para o GitHub
 ```text
 Reposit-rio-de-Bia/
 ├── README.md      # documentação do projeto (este arquivo)
+├── LICENSE        # licença MIT do projeto
 └── .git/          # pasta criada automaticamente pelo Git (controle de versão)
 ```
 
@@ -154,6 +161,14 @@ Sugestões e correções são bem-vindas. Para contribuir:
 ## Licença
 
 Este projeto está sob a licença **MIT** — veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+## Referências
+
+- [Git — documentação oficial](https://git-scm.com/doc)
+- [GitHub Docs](https://docs.github.com/pt)
+- [Markdown Guide](https://www.markdownguide.org/) — guia usado para escrever este README
 
 ---
 
