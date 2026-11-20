@@ -11,7 +11,7 @@
 
 ## Sobre o projeto
 
-Este repositório foi criado para a **atividade do professor Emerson** e reúne, na prática, o que foi estudado nas aulas de Git e GitHub:
+Este repositório foi criado para a **atividade do professor Emerson** e reúne o que foi estudado nas aulas de Git e GitHub:
 
 - como funciona o **controle de versão** e por que ele evita arquivos como `projeto_final2_final_corrigido`;
 - a diferença entre **Git** (ferramenta local) e **GitHub** (plataforma na nuvem);
